@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&family=Space+Grotesk:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.highlight {
+  color: #34a1cd;
+}
+
+html {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #130f49;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #34a1cd;
+  transition: 0.3s;
+}
+
+.current {
+  color: #34a1cd;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navigation {
+  height: 30vh;
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.branding {
+  display: flex;
+}
+
+.branding i {
+  font-size: 2rem;
+  color: #130f49;
+  padding: 0 20px;
+}
+
+.mid-nav a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.nav-right a {
+  color: #130f49;
+  font-size: 2rem;
+  padding: 0 20px;
+}
+
+.background-design {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.showcase-container {
+  display: flex;
+  height: 70vh;
+  padding: 2rem 1rem;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction h1 {
+  font-family: Spacegrotesk, sans-serif;
+  src: url("https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807eb72be6fe5d8_SpaceGrotesk-Medium.woff")
+    format("woff");
+  font-size: 4.876rem;
+  max-width: 60%;
+  text-align: center;
+  font-weight: bold;
+}
+.introduction p {
+  color: #55527c;
+  font-weight: 500;
+  width: 550px;
+  margin-top: 50px;
+  font-family: Karla, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.7;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 350px;
+  background-color: #f7f6fb;
+  position: relative;
+  padding: 0;
+}
+
+input {
+  padding: 1.5rem 0 1.5rem 1rem;
+}
+
+.newsletter #email {
+  width: 15rem;
+  background-color: #f7f6fb;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+#email::placeholder {
+  font-weight: 500;
+  color: #c6c4d1;
+}
+
+#btn {
+  padding: 0.9rem;
+  border-radius: 10px;
+  background-color: #130f49;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.confetti {
+  height: 25px;
+  width: 25px;
+  background: url(https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807eb547e6fe61c_party-popper.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.news-update {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 450px;
+  font-weight: 200;
+}
+
+.joining {
+  padding: 0 0 0 10px;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.article-heading {
+  text-align: center;
+  line-height: 5rem;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+}
+
+.image img {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.blogs h1 {
+  font-size: 4rem;
+}
+
+.blogs h2 {
+  font-size: 3rem;
+}
+
+.content small {
+  text-align: center;
+  line-height: 2rem;
+  font-weight: lighter;
+}
+
+.content p {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 1.7em;
+}
+.article-heading p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.card {
+}
+
+footer p {
+  margin: 100px auto 10px auto;
+  font-weight: 300;
+}
