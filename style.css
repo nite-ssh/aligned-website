@@ -17,14 +17,37 @@ html {
   font-size: 16px;
 }
 
+.card {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 50px;
+  backdrop-filter: blur(0.5px);
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+}
+
+.card p {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
 a {
   color: #130f49;
   text-decoration: none;
 }
 
 a:hover {
-  color: #34a1cd;
+  color: rgb(52, 161, 205);
   transition: 0.3s;
+}
+
+code {
+  padding: 0.2rem;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #232629;
+  background-color: #e3e6e8;
 }
 
 .current {
@@ -32,7 +55,9 @@ a:hover {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: square;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -184,6 +209,7 @@ input {
 .image {
   display: flex;
   flex-direction: column;
+  margin: 30px auto;
 }
 
 .image img {
@@ -205,8 +231,9 @@ input {
   font-weight: lighter;
 }
 
-.content p {
-  width: 80%;
+.content p,
+.content li {
+  max-width: 1000px;
   text-align: justify;
   margin: 0 auto;
   font-size: 1.5rem;
@@ -217,7 +244,49 @@ input {
   font-weight: lighter;
 }
 
-.card {
+.boiler-plate img {
+  display: block;
+  width: 600px;
+  margin: 30px auto;
+}
+
+.table-design {
+  max-width: 1000px;
+  margin: 30px auto 0 auto;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+th {
+  background-color: #34a1cd;
+  color: white;
+}
+
+th,
+td {
+  width: 1000px;
+  height: 70px;
+  text-align: center;
+  border: 1px solid #34a1cd;
+  padding: 20px;
+}
+
+.semantic {
+  margin-top: 50px;
+}
+
+.article-heading h3 {
+  font-size: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.example {
+  width: 700px;
 }
 
 footer p {
