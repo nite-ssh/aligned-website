@@ -332,3 +332,86 @@ footer p {
   margin: 100px auto 10px auto;
   font-weight: 300;
 }
+
+@media (max-width: 768px) {
+  .navigation {
+    width: 1000px;
+  }
+
+  .background-design {
+    display: none;
+  }
+
+  .branding {
+    border: 2px solid red;
+    font-size: 0.6rem;
+    align-items: center;
+    width: 50%;
+  }
+
+  .nav-container {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mid-nav {
+    border: 2px solid red;
+    justify-content: center;
+    width: 70%;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .mid-nav a {
+    font-size: 1rem;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .introduction h1 {
+    border: 2px solid red;
+    width: 1000px;
+  }
+
+  .introduction {
+    margin: 0 auto;
+  }
+
+  .newsletter-container {
+    border: 2px solid red;
+  }
+
+  .newsletter {
+    margin: 0 60%;
+  }
+
+  .nav-container {
+    width: 1000px;
+  }
+
+  .nav-container p {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .news-update {
+    border: 2px solid red;
+    width: 1000px;
+    margin-left: 450px;
+    justify-content: center;
+  }
+
+  .blog-container {
+    width: 1000px;
+    padding: 0 20px 0 50px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 425px) {
+}
